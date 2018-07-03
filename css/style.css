@@ -316,7 +316,8 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 120px 0 60px 0;
-	background: #F6F6F6;
+	/* background: #F6F6F6; */
+	background: #fff; 
 }
 #contact form {
 	padding: 30px 0;
