@@ -145,14 +145,27 @@ hr {
 .intro h1 {
 	color: #0ba2db;
 	font-size: 74px;
-	font-weight: 600;
+	font-weight: 400;
 	margin-top: 0;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	margin-bottom: 10px;
+	font-family: 'helvetica';
+	letter-spacing: -2px; 
 }
+
+.intro #subHeader {
+	color: #0ba2db;
+	font-size: 65px;
+	font-weight: 400;
+	margin-top: 0;
+	/* text-transform: uppercase; */
+	margin-bottom: 10px;
+	font-family: 'helvetica'
+}
+
 .intro p {
 	color: #444;
-	font-size: 28px;
+	font-size: 32px;
 	font-weight: 600;
 	margin-top: 10px;
 	margin-bottom: 40px;
@@ -167,7 +180,8 @@ header .intro-text {
 	padding: 120px 0;
 }
 #about h3 {
-	font-size: 22px;
+	font-size: 25px;
+	letter-spacing: 1px; 
 }
 #about .about-text {
 	margin-left: 10px;
