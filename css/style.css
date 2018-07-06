@@ -140,14 +140,13 @@ hr {
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: rgba(255, 255, 255, 0.625);
+	background: rgba(255, 255, 255, 0.714);
 }
 .intro h1 {
 	color: #0ba2db;
-	font-size: 74px;
+	font-size: 77px;
 	font-weight: 400;
 	margin-top: 0;
-	/* text-transform: uppercase; */
 	margin-bottom: 10px;
 	font-family: 'helvetica';
 	letter-spacing: -2px; 
@@ -155,25 +154,26 @@ hr {
 
 .intro #subHeader {
 	color: #0ba2db;
-	font-size: 65px;
+	font-size: 64px;
 	font-weight: 400;
-	margin-top: 0;
-	/* text-transform: uppercase; */
-	margin-bottom: 10px;
+	margin-top: -300px;
+	margin-bottom: 100px;
+	margin-left: -120px; 
 	font-family: 'helvetica'
 }
 
 .intro p {
 	color: #444;
-	font-size: 32px;
-	font-weight: 600;
-	margin-top: 10px;
+	font-size: 36px;
+	font-weight: 500;
+	margin-top: 30px;
 	margin-bottom: 40px;
 }
 header .intro-text {
-	padding-top: 300px;
-	padding-bottom: 200px;
+	padding-top: 180px;
+	padding-bottom: 180px;
 	text-align: center;
+
 }
 /* About Section */
 #about {
@@ -196,7 +196,7 @@ header .intro-text {
 #about .about-text li {
 	font-size: 16px;
 	margin-bottom: 6px;
-	margin-left: 10px;
+	margin-left: -13px;
 	list-style: none;
 	padding: 0;
 }
@@ -208,6 +208,13 @@ header .intro-text {
 #about p {
 	line-height: 24px;
 	margin: 30px 0;
+}
+
+#about #education {
+	margin: 10px 0 0 0 !important; 
+	padding: 0; 
+	
+
 }
 /* Services Section */
 #services {
