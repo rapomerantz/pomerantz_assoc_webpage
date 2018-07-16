@@ -221,7 +221,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-	padding: 120px 3em;
+	padding: 120px 10%;
 	background: #f6f6f6;
 }
 
@@ -374,11 +374,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	#menu a.navbar-brand {
 		font-size: 15px;
 	}
-}
-
-
-/* @media only screen and (min-width: 1251px) {
-	#services .service p {
-		font-size: 20px !important; 
+	#about {
+		padding: 120px 2%;
 	}
-} */
+	#services {
+		padding: 120px 5%;
+		background: #f6f6f6;
+	}
+}
